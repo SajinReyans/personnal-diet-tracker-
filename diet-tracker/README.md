@@ -1,19 +1,3 @@
-# Diet Log
-
-A personal calorie/macro tracker. You type what you ate into a small chat box, a
-rule-based "bot" (plai
-- **Parser bot:** `server/parser.js` — pure regex/keyword matching, not an LLM
-
-## Running it locally
-
-Open two terminals.
-
-**Terminal 1 — API server**
-```bash
-cd server
-npm install
-npm run dev        # http://localhost:4000
-```
 
 **Terminal 2 — frontend**
 ```bash
