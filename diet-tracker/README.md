@@ -1,15 +1,7 @@
 # Diet Log
 
 A personal calorie/macro tracker. You type what you ate into a small chat box, a
-rule-based "bot" (plain regex, no AI) reads the numbers out of your sentence,
-and it drops a row into your daily log table + updates a nutrition-facts-style
-summary panel and a 7-day trend chart.
-
-## Stack
-- **Frontend:** React + Vite, Tailwind CSS, Framer Motion (animations),
-  Recharts (7-day chart), Lucide (icons), Axios
-- **Backend:** Node.js + Express, a tiny JSON-file store (`server/data.json`,
-  created automatically on first run) — no database setup required
+rule-based "bot" (plai
 - **Parser bot:** `server/parser.js` — pure regex/keyword matching, not an LLM
 
 ## Running it locally
